@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*head background image burger*/
+.head_img{
+    width: 100vw;
+}
+/*logo*/
+.logo{
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    padding: auto;
+}
+/*logo name */
+.logo_name{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    color: rgb(136, 216, 17);
+    padding: auto;
+}
+/*1st comment line*/
+.short_info{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    font-family:  'Dancing Script', cursive;
+    font-size: 30px;
+    padding: auto;
+}
+/*second comment line*/
+.get_in{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 37%;
+    top: 38%;
+    color: white;
+    padding: auto;
+}
+/*head icons massenger, fb etc*/
+.head_icons{
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    color: white;
+}
+a.fa{
+    text-decoration: none;
+}
+/*icon hover*/
+.head_icons:hover{
+    cursor: pointer;
+}
+.details{
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    color: white;
+}
+/*home > bloger button*/
+.home_blogs:hover{
+    background-color: rgb(17, 185, 17);
+    color: white;
+}
+/*content 1*/
+.content1{
+    position: relative;
+    width: 80vw;
+    border: 2px solid rgb(10, 150, 10);
+    height: 50vh;
+    left: 10%;
+}
+.h5{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    color: rgb(21, 180, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.icons_content1{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    width: 50vw;
+}
+i.fa{
+    padding: 0 1%;
+}
+.content2{
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+}
+table{
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    border: none;
+    width: 50vw;
+    font-size: 12px;
+}
+tr, td{
+    padding-top: 2% ;
+    border-right: 1px solid white;
+}
+/*pvt_ltd*/
+.left{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 44%;
+    left: 5%;
+}
+li{
+    padding: 0 0 5% 0;
+}
+.middle{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 44%;
+    left: 35%;
+}
+.right{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 44%;
+    left: 65%;
+}
+input[type=text],[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    padding: 5px 10px;
+}
+input[type=submit]{
+    color: white;
+    background-color: rgb(11, 117, 11);
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: green;
+}
+.navbar{
+    display: inline;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    left: 51%;
+}
+.navbar a{
+    float: left;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+/*.timings1{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}*/
+/*@media only screen and (max-width:800px) {
+    
+    .logo {
+      
+    }
+    .short_info {
+      
+    }
+    .get_in{
+
+    }
+  }
+  @media only screen and (max-width:500px) {
+    
+    
+  }*/
